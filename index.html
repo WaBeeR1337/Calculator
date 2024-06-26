@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <input id="Num1" type="number"></input>
+    <br>
+    <br>
+
+    <div id="Buttons"></div>
+    <button id="plus" onclick="op='+'">+</button>
+    <button id="minus" onclick="op='-'">-</button>
+    <button id="times" onclick="op='*'">*</button>
+    <button id="divide" onclick="op='/'">/</button>
+    <br>
+    <br>
+
+    <input id="Num2" type="number"></input>
+    <button id="Count" onclick="func()">Count</button>
+
+    <p id="Result"></p>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src//components/Parrent/Parrent.jsx"></script>
+  </body>
+</html>
